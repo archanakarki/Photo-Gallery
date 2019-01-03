@@ -1,0 +1,40 @@
+/*Targets the heading text */
+
+p{
+font-family: 'Raleway', sans-serif;
+margin-left: 1.66%;
+text-transform: uppercase;
+border-bottom: 2px solid #f1f1f1;
+width:30%;
+font-size:23px;
+font-weight: 700;
+padding-bottom: 1.66%;
+}
+
+/*Setting for the galllery division*/
+
+.gallery{
+	width: 100%;
+	height: auto;
+}
+
+
+/*Setting for each images in the galllery division
+
+-------Each margin for images = 1.66%-------------
+-------Reason-------------------------------------
+-------Width and margin has been manually calculated to scale the images as per the screen size so no media queries is included
+-------100% - (3 images * 30 %) 
+  		 = 10% 
+  	   	    |
+  		   \  /
+		    \/
+--------For 2 sides * 3 images = 10%/6 = 1.66%----
+*/
+
+.gallery img{
+	width:30%;
+	height:300px;
+	margin:1.66%;
+	float: left;
+}
